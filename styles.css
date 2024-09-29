@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/466485045/photo/focused-shot-of-round-alarm-clock-on-a-wooden-table.jpg?s=612x612&w=0&k=20&c=bHPofKaEfRHLaCReCqarSiZpHKglNBbyW_cC5ZDqvQQ=');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); 
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.95);
+}
